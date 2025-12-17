@@ -1,22 +1,3 @@
-Package: soplos-release
-Version: 0.1.9
-Architecture: all
-Maintainer: Sergi Perich
-Essential: no
-Replaces: base-files
-Priority: required
-Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.9_all.deb
-Size: 134076
-SHA256: 793b61aac3f618935d4adf2c29c3820c8fa1d1e750b9b61d594acda501a4de9e
-SHA1: 2aaa280d4fb5fae0bda3b4b5c849f61d5fbf1142
-MD5sum: c0c963a987118aa1d690b49c03d7c4f4
-Description: Soplos Linux release information
- This package contains release information and version files for Soplos Linux.
- It is essential for operating system identification.
- This is an internal system package and does not provide any user interface.
- This release corresponds to Soplos Linux Boro Alpha 1.
-
 Package: soplos-repo-selector
 Version: 2.0.0
 Architecture: all
