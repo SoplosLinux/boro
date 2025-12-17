@@ -1,0 +1,745 @@
+---
+File: DEP-11
+Version: '1.0'
+Origin: SoplosLinux
+MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/boro/main/media
+Time: 20251217T084309
+---
+Type: desktop-application
+ID: org.soplos.reposelector.desktop
+ProjectLicense: GPL-3.0+
+Package: soplos-repo-selector
+Name:
+  C: Soplos Repo Selector
+  en: Soplos Repo Selector
+  es: Selector de Repositorios Soplos
+  fr: Sélecteur de dépôts Soplos
+  pt: Seletor de Repositórios Soplos
+  de: Soplos Repository-Selektor
+  it: Selettore Repository Soplos
+  ru: Селектор репозиториев Soplos
+  ro: Selector de depozite Soplos
+Summary:
+  en: Advanced APT repository manager for Debian-based systems
+  C: Advanced APT repository manager for Debian-based systems
+  es: Gestor avanzado de repositorios APT para sistemas basados en Debian
+  fr: Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian
+  pt: Gerenciador avançado de repositórios APT para sistemas baseados em Debian
+  de: Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme
+  it: Gestore avanzato di repository APT per sistemi basati su Debian
+  ru: Продвинутый менеджер APT-репозиториев для систем на базе Debian
+  ro: Manager avansat de depozite APT pentru sisteme bazate pe Debian
+Description:
+  en: |-
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p><p>Includes the following features:</p>
+  C: |-
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p><p>Includes the following features:</p>
+  es: |-
+    <p>Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p><p>Las características principales incluyen:</p>
+  fr: |-
+    <p>Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p><p>Les fonctionnalités clés incluent:</p>
+  pt: |-
+    <p>Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p><p>As principais características incluem:</p>
+  de: |-
+    <p>Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p><p>Hauptmerkmale umfassen:</p>
+  it: |-
+    <p>Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p><p>Le caratteristiche principali includono:</p>
+  ru: |-
+    <p>Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p><p>Ключевые функции включают:</p>
+  ro: |-
+    <p>Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p><p>Caracteristicile principale includ:</p>
+Keywords:
+  C:
+    - repository
+    - apt
+    - sources
+    - debian
+    - soplos
+    - package
+    - manager
+    - gpg
+    - theme
+    - wayland
+    - template
+    - mirror
+    - system
+    - utility
+    - settings
+  es:
+    - repositorio
+    - fuentes
+    - paquete
+    - gestor
+    - claves
+    - tema
+    - plantilla
+    - espejo
+    - sistema
+    - utilidad
+    - ajustes
+  fr:
+    - dépôt
+    - sources
+    - paquet
+    - gestionnaire
+    - clé
+    - thème
+    - modèle
+    - miroir
+    - système
+    - utilitaire
+    - paramètres
+  pt:
+    - repositório
+    - fontes
+    - pacote
+    - gerenciador
+    - chave
+    - tema
+    - modelo
+    - espelho
+    - sistema
+    - utilitário
+    - definições
+  de:
+    - repository
+    - quelle
+    - paket
+    - manager
+    - schlüssel
+    - thema
+    - vorlage
+    - spiegel
+    - system
+    - dienstprogramm
+    - einstellungen
+  it:
+    - repository
+    - sorgenti
+    - pacchetto
+    - gestore
+    - chiave
+    - tema
+    - modello
+    - mirror
+    - sistema
+    - utilità
+    - impostazioni
+  ru:
+    - репозиторий
+    - источники
+    - пакет
+    - менеджер
+    - ключ
+    - тема
+    - шаблон
+    - зеркало
+    - система
+    - утилита
+    - настройки
+  ro:
+    - depozit
+    - surse
+    - pachet
+    - manager
+    - cheie
+    - temă
+    - șablon
+    - oglindă
+    - sistem
+    - utilitar
+    - setări
+Categories:
+  - Settings
+  - System
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.reposelector.png
+      width: 48
+      height: 48
+    - name: org.soplos.reposelector.png
+      width: 64
+      height: 64
+    - name: org.soplos.reposelector.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-repo-selector/icons/48x48/org.soplos.reposelector.png
+      width: 48
+      height: 48
+    - url: soplos-repo-selector/icons/64x64/org.soplos.reposelector.png
+      width: 64
+      height: 64
+    - url: soplos-repo-selector/icons/128x128/org.soplos.reposelector.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Gestor de Repositorios Debian
+      es: Gestor de Repositorios Debian
+      fr: Gestionnaire de dépôts Debian
+      pt: Gerenciador de Repositórios Debian
+      de: Debian-Repository-Manager
+      it: Gestore dei repository Debian
+      ru: Менеджер репозиториев Debian
+      ro: Manager de depozite Debian
+    source-image:
+      url: soplos-repo-selector/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Buscar Repositorios Más Rápidos
+      es: Buscar Repositorios Más Rápidos
+      fr: Recherche des dépôts les plus rapides
+      pt: Buscar Repositórios Mais Rápidos
+      de: Schnellste Repositories suchen
+      it: Cerca repository più veloci
+      ru: Поиск самых быстрых репозиториев
+      ro: Căutare depozite mai rapide
+    source-image:
+      url: soplos-repo-selector/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Gestor de Claves GPG
+      es: Gestor de Claves GPG
+      fr: Gestionnaire de clés GPG
+      pt: Gerenciador de Chaves GPG
+      de: GPG-Schlüsselverwaltung
+      it: Gestore chiavi GPG
+      ru: Менеджер ключей GPG
+      ro: Manager de chei GPG
+    source-image:
+      url: soplos-repo-selector/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Detalles de Clave GPG
+      es: Detalles de Clave GPG
+      fr: Détails de la clé GPG
+      pt: Detalhes da Chave GPG
+      de: GPG-Schlüsseldetails
+      it: Dettagli chiave GPG
+      ru: Детали ключа GPG
+      ro: Detalii cheie GPG
+    source-image:
+      url: soplos-repo-selector/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.reposelector.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector
+  donation: https://paypal.me/soploslinux
+  contact: https://soplos.org/wiki/contact/
+Developer:
+  id: org.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soplos.org
+Provides:
+  - soplos-repo-selector
+Releases:
+  - version: 2.0.0
+    date: '2025-12-10'
+    type: stable
+    description:
+      es: 'Lanzamiento 2.0.0: rediseño de la interfaz, mejoras de rendimiento y mayor
+        compatibilidad.'
+      en: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
+      fr: 'Version 2.0.0 : refonte de l''interface, améliorations des performances
+        et compatibilité étendue.'
+      pt: 'Versão 2.0.0: reformulação da interface, melhorias de desempenho e compatibilidade
+        ampliada.'
+      de: 'Version 2.0.0: Benutzeroberfläche überarbeitet, Leistungsverbesserungen
+        und erweiterte Kompatibilität.'
+      it: 'Versione 2.0.0: restyling dell''interfaccia, miglioramenti delle prestazioni
+        e compatibilità ampliata.'
+      ru: 'Версия 2.0.0: переработанный интерфейс, улучшение производительности и
+        расширенная совместимость.'
+      ro: 'Versiunea 2.0.0: interfață reproiectată, îmbunătățiri de performanță și
+        compatibilitate extinsă.'
+      C: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
+  - version: 2.0.0
+    date: '2025-12-13'
+    type: stable
+    description:
+      es: 'Parche 2025-12-13: traducciones completadas y cabeceras estandarizadas.'
+      en: 'Patch 2025-12-13: completed translations and standardized headers.'
+      fr: 'Correctif 2025-12-13 : traductions terminées et en-têtes standardisés.'
+      pt: 'Patch 2025-12-13: traduções concluídas e cabeçalhos padronizados.'
+      de: 'Patch 2025-12-13: Übersetzungen abgeschlossen und Header standardisiert.'
+      it: 'Patch 2025-12-13: traduzioni completate e intestazioni standardizzate.'
+      ru: 'Патч 2025-12-13: завершены переводы и стандартизированы заголовки.'
+      ro: 'Patch 2025-12-13: traduceri finalizate și antete standardizate.'
+      C: 'Patch 2025-12-13: completed translations and standardized headers.'
+  - version: 2.0.0
+    date: '2025-12-12'
+    type: stable
+    description:
+      es: 'Parche 2025-12-12: correcciones y mejoras menores.'
+      en: 'Patch 2025-12-12: minor fixes and improvements.'
+      fr: 'Correctif 2025-12-12 : corrections et améliorations mineures.'
+      pt: 'Patch 2025-12-12: correções e melhorias menores.'
+      de: 'Patch 2025-12-12: kleinere Fehlerbehebungen und Verbesserungen.'
+      it: 'Patch 2025-12-12: correzioni e miglioramenti minori.'
+      ru: 'Патч 2025-12-12: мелкие исправления и улучшения.'
+      ro: 'Patch 2025-12-12: corecții și îmbunătățiri minore.'
+      C: 'Patch 2025-12-12: minor fixes and improvements.'
+  - version: 1.0.7
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Nuevo icono de la aplicación.
+      es: Cambio de icono del programa.
+      fr: Changement d'icône du programme.
+      pt: Alteração do ícone do programa.
+      de: Programmicon geändert.
+      it: Cambio dell'icona del programma.
+      ru: Изменена иконка программы.
+      ro: Schimbare pictogramă a programului.
+  - version: 1.0.6
+    date: '2025-07-16'
+    type: stable
+    description:
+      C: 'AppStream/DEP11 compliance: metainfo fully validated and icons added in
+        48x48, 64x64, 128x128 for software centers.'
+      es: 'Cumplimiento AppStream/DEP11: metainfo validado y se añaden iconos en 48x48,
+        64x64 y 128x128 para centros de software.'
+      fr: 'Conformité AppStream/DEP11 : metainfo validé et icônes ajoutées en 48x48,
+        64x64, 128x128 pour les centres logiciels.'
+      pt: 'Conformidade AppStream/DEP11: metainfo validado e ícones adicionados em
+        48x48, 64x64, 128x128 para centros de software.'
+      de: 'AppStream/DEP11-Konformität: Metainfo validiert und Symbole in 48x48, 64x64,
+        128x128 für Software-Center hinzugefügt.'
+      it: 'Conformità AppStream/DEP11: metainfo validato e icone aggiunte in 48x48,
+        64x64, 128x128 per i centri software.'
+      ru: 'Соответствие AppStream/DEP11: метаинформация проверена, добавлены иконки
+        48x48, 64x64, 128x128 для центров ПО.'
+      ro: 'Conformitate AppStream/DEP11: metainfo validat și pictograme adăugate la
+        48x48, 64x64, 128x128 pentru centrele software.'
+  - version: 1.0.5
+    date: '2025-07-14'
+    type: stable
+    description:
+      C: Final metainfo corrections for proper appearance in software centers (AppStream,
+        Discover, GNOME Software, etc).
+      es: |-
+        Correcciones finales del metainfo para aparecer correctamente en centros de software (AppStream, Discover, GNOME Software, etc).
+      fr: |-
+        Corrections finales du metainfo pour une apparition correcte dans les centres logiciels (AppStream, Discover, GNOME Software, etc).
+      pt: |-
+        Correções finais do metainfo para aparecer corretamente em centros de software (AppStream, Discover, GNOME Software, etc).
+      de: |-
+        Abschließende Metainfo-Korrekturen für die korrekte Anzeige in Software-Centern (AppStream, Discover, GNOME Software, etc).
+      it: |-
+        Correzioni finali del metainfo per la corretta visualizzazione nei centri software (AppStream, Discover, GNOME Software, ecc).
+      ru: |-
+        Финальные исправления метаинформации для корректного отображения в центрах программного обеспечения (AppStream, Discover, GNOME Software и др.).
+      ro: Corecții finale ale metainfo pentru apariția corectă în centrele software
+        (AppStream, Discover, GNOME Software, etc).
+  - version: 1.0.4
+    date: '2025-07-13'
+    type: stable
+    description:
+      C: Updated metainfo for better visibility in Discover and AppStream.
+      es: Metainfo actualizado para mejor visibilidad en Discover y AppStream.
+      fr: Metainfo mis à jour pour une meilleure visibilité dans Discover et AppStream.
+      pt: Metainfo atualizado para melhor visibilidade no Discover e AppStream.
+      de: Metainfo für bessere Sichtbarkeit in Discover und AppStream aktualisiert.
+      it: Metainfo aggiornato per una migliore visibilità in Discover e AppStream.
+      ru: Обновлен метаинфо для лучшей видимости в Discover и AppStream.
+      ro: Metainfo actualizat pentru o mai bună vizibilitate în Discover și AppStream.
+  - version: 1.0.3
+    date: '2025-06-17'
+    type: stable
+    description:
+      C: Enhanced theme compatibility and stability improvements
+      es: Compatibilidad de tema mejorada y mejoras de estabilidad
+      fr: Compatibilité de thème améliorée et améliorations de stabilité
+      pt: Compatibilidade de tema aprimorada e melhorias de estabilidade
+      de: Verbesserte Theme-Kompatibilität und Stabilitätsverbesserungen
+      it: Compatibilità del tema migliorata e miglioramenti della stabilità
+      ru: Улучшенная совместимость темы и улучшения стабильности
+      ro: Compatibilitate de temă îmbunătățită și îmbunătățiri de stabilitate
+  - version: 1.0.2
+    date: '2025-01-15'
+    type: stable
+    description:
+      C: Automatic theme detection and interface improvements
+      es: Detección automática de tema y mejoras de interfaz
+      fr: Détection automatique de thème et améliorations d'interface
+      pt: Detecção automática de tema e melhorias de interface
+      de: Automatische Theme-Erkennung und Interface-Verbesserungen
+      it: Rilevamento automatico del tema e miglioramenti dell'interfaccia
+      ru: Автоматическое обнаружение темы и улучшения интерфейса
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.welcome
+ProjectLicense: GPL-3.0+
+Package: soplos-welcome
+Name:
+  C: Soplos Welcome
+  es: Bienvenida a Soplos
+  en: Soplos Welcome
+  fr: Bienvenue sur Soplos
+  pt: Bem-vindo ao Soplos
+  de: Willkommen bei Soplos
+  it: Benvenuto su Soplos
+  ru: Добро пожаловать в Soplos
+  ro: Bun venit la Soplos
+Summary:
+  C: The world's most advanced welcome application for Linux
+  es: La aplicación de bienvenida más avanzada del mundo para Linux
+  en: The world's most advanced welcome application for Linux
+  fr: L'application d'accueil la plus avancée au monde pour Linux
+  pt: A aplicação de boas-vindas mais avançada do mundo para Linux
+  de: Die weltweit fortschrittlichste Willkommensanwendung für Linux
+  it: L'applicazione di benvenuto più avanzata al mondo per Linux
+  ru: Самое продвинутое приложение-приветствие в мире для Linux
+  ro: Cea mai avansată aplicație de întâmpinare din lume pentru Linux
+Description:
+  C: |-
+    <p>Soplos Welcome 2.0 is a next-generation welcome application that provides an intuitive,
+    beautiful, and powerful first-time user experience for Soplos Linux. Built with modern
+    architecture, professional internationalization, and universal desktop environment compatibility.</p><p>Key Features:</p>
+  es: |-
+    <p>Soplos Welcome 2.0 es una aplicación de bienvenida de nueva generación que proporciona una
+    experiencia de usuario intuitiva, hermosa y poderosa para nuevos usuarios de Soplos Linux.
+    Construida con arquitectura moderna, internacionalización profesional y compatibilidad
+    universal con entornos de escritorio.</p>
+  fr: |-
+    <p>Soplos Welcome 2.0 est une application d'accueil de nouvelle génération qui offre une
+    expérience utilisateur intuitive, belle et puissante pour les nouveaux utilisateurs de
+    Soplos Linux. Construite avec une architecture moderne, une internationalisation
+    professionnelle et une compatibilité universelle avec les environnements de bureau.</p>
+  de: |-
+    <p>Soplos Welcome 2.0 ist eine Willkommensanwendung der nächsten Generation, die eine
+    intuitive, schöne und mächtige Erstbenutzererfahrung für Soplos Linux bietet.
+    Entwickelt mit moderner Architektur, professioneller Internationalisierung und
+    universeller Desktop-Umgebungskompatibilität.</p>
+Keywords:
+  C:
+    - welcome
+    - setup
+    - system
+    - configuration
+    - customize
+    - soplos
+    - drivers
+    - software
+    - themes
+  es:
+    - bienvenida
+    - configuración
+    - personalizar
+    - controladores
+  fr:
+    - bienvenue
+    - configuration
+    - personnaliser
+  de:
+    - willkommen
+    - konfiguration
+    - anpassen
+Categories:
+  - Settings
+  - DesktopSettings
+  - GTK
+  - System
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.welcome.png
+      width: 48
+      height: 48
+    - name: org.soplos.welcome.png
+      width: 64
+      height: 64
+    - name: org.soplos.welcome.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-welcome/icons/48x48/org.soplos.welcome.png
+      width: 48
+      height: 48
+    - url: soplos-welcome/icons/64x64/org.soplos.welcome.png
+      width: 64
+      height: 64
+    - url: soplos-welcome/icons/128x128/org.soplos.welcome.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Welcome screen with system overview
+      es: Pantalla de bienvenida con resumen del sistema
+    source-image:
+      url: soplos-welcome/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Intelligent software management center
+      es: Centro de gestión inteligente de software
+    source-image:
+      url: soplos-welcome/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Hardware driver detection and installation
+      es: Detección e instalación de controladores de hardware
+    source-image:
+      url: soplos-welcome/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Desktop customization and theming
+      es: Personalización del escritorio y temas
+    source-image:
+      url: soplos-welcome/screenshots/screenshot5.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.welcome.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-welcome/issues
+  help: https://github.com/SoplosLinux/soplos-welcome/wiki
+  donation: https://www.paypal.com/paypalme/isubdes
+Provides:
+  - soplos-welcome
+Releases:
+  - version: 2.0.0
+    date: '2025-12-06'
+    type: stable
+    description:
+      C: 'Major rewrite with modern architecture and enhanced capabilities:'
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.welcomelive
+ProjectLicense: GPL-3.0+
+Package: soplos-welcome-live
+Name:
+  C: Soplos Welcome Live
+  es: Bienvenida a Soplos Live
+  fr: Bienvenue sur Soplos Live
+  pt: Bem-vindo ao Soplos Live
+  de: Willkommen bei Soplos Live
+  it: Benvenuto su Soplos Live
+  ru: Добро пожаловать в Soplos Live
+  ro: Bun venit la Soplos Live
+Summary:
+  C: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
+  es: Aplicación de bienvenida para Soplos Linux Live con recuperación CHROOT y soporte
+    BTRFS
+  fr: Application d'accueil pour Soplos Linux Live avec récupération CHROOT et support
+    BTRFS
+  pt: Aplicação de boas-vindas para Soplos Linux Live com recuperação CHROOT e suporte
+    BTRFS
+  de: Willkommensanwendung für Soplos Linux Live mit CHROOT-Wiederherstellung und
+    BTRFS-Unterstützung
+  it: Applicazione di benvenuto per Soplos Linux Live con recupero CHROOT e supporto
+    BTRFS
+  ru: Приложение приветствия для Soplos Linux Live с восстановлением CHROOT и поддержкой
+    BTRFS
+  ro: Aplicație de bun venit pentru Soplos Linux Live cu recuperare CHROOT și suport
+    BTRFS
+Description:
+  C: |-
+    <p>Soplos Welcome Live 2.0 provides a comprehensive welcome experience for Soplos Linux Live Environment. Built with the same modular architecture as Soplos Welcome 2.0, it offers universal desktop compatibility and professional system recovery tools.</p>
+  es: |-
+    <p>Soplos Welcome Live 2.0 proporciona una experiencia de bienvenida completa para el entorno Live de Soplos Linux. Construida con la misma arquitectura modular que Soplos Welcome 2.0, ofrece compatibilidad universal con escritorios y herramientas profesionales de recuperación del sistema.</p>
+  fr: |-
+    <p>Soplos Welcome Live 2.0 offre une expérience de bienvenue complète pour l'environnement Live de Soplos Linux. Construite avec la même architecture modulaire que Soplos Welcome 2.0, elle offre une compatibilité universelle avec les bureaux et des outils professionnels de récupération système.</p>
+Keywords:
+  C:
+    - welcome
+    - live
+    - install
+    - chroot
+    - recovery
+    - btrfs
+    - soplos
+  es:
+    - bienvenida
+    - instalar
+    - recuperación
+  fr:
+    - bienvenue
+    - installer
+    - récupération
+  pt:
+    - boas-vindas
+    - instalar
+    - recuperação
+  de:
+    - willkommen
+    - installation
+    - wiederherstellung
+  it:
+    - benvenuto
+    - installare
+    - recupero
+  ru:
+    - приветствие
+    - установка
+    - восстановление
+  ro:
+    - bun venit
+    - instalare
+    - recuperare
+Categories:
+  - System
+  - Settings
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.welcomelive.png
+      width: 48
+      height: 48
+    - name: org.soplos.welcomelive.png
+      width: 64
+      height: 64
+    - name: org.soplos.welcomelive.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-welcome-live/icons/48x48/org.soplos.welcomelive.png
+      width: 48
+      height: 48
+    - url: soplos-welcome-live/icons/64x64/org.soplos.welcomelive.png
+      width: 64
+      height: 64
+    - url: soplos-welcome-live/icons/128x128/org.soplos.welcomelive.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Welcome Screen with Language Selection and System Installation
+      es: Pantalla de Bienvenida con Selección de Idioma e Instalación del Sistema
+      fr: Écran d'accueil avec sélection de la langue et installation du système
+      pt: Ecrã de boas-vindas com seleção de idioma e instalação do sistema
+      de: Begrüßungsbildschirm mit Sprachauswahl und Systeminstallation
+      it: Schermata di benvenuto con selezione della lingua e installazione del sistema
+      ru: Экран приветствия с выбором языка и установкой системы
+      ro: Ecran de bun venit cu selecţie de limbă şi instalare a sistemului
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Advanced CHROOT Recovery System
+      es: Sistema Avanzado de Recuperación CHROOT
+      fr: Système de récupération CHROOT avancé
+      pt: Sistema de recuperação CHROOT avançado
+      de: Fortschrittliches CHROOT-Wiederherstellungssystem
+      it: Sistema di recupero CHROOT avanzato
+      ru: Продвинутая система восстановления CHROOT
+      ro: Sistem avansat de recuperare CHROOT
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: BTRFS Subvolume Selection
+      es: Selección de Subvolúmenes BTRFS
+      fr: Sélection de sous-volumes BTRFS
+      pt: Seleção de subvolumes BTRFS
+      de: Auswahl von BTRFS-Subvolumes
+      it: Selezione dei sottovolumi BTRFS
+      ru: Выбор подтомов BTRFS
+      ro: Selectare subvolume BTRFS
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Terminal with Active CHROOT Session
+      es: Terminal con Sesión CHROOT Activa
+      fr: Terminal avec session CHROOT active
+      pt: Terminal com sessão CHROOT ativa
+      de: Terminal mit aktiver CHROOT-Sitzung
+      it: Terminal con sessione CHROOT attiva
+      ru: Терминал с активной CHROOT-сессией
+      ro: Terminal cu sesiune CHROOT activă
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.welcomelive.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-welcome-live/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  help: https://soplos.org
+Developer:
+  id: org.soplos
+  name:
+    C: Soplos Team
+  url: https://soplos.org
+Provides:
+  - soplos-welcome-live
+Releases:
+  - version: 2.0.0
+    date: '2025-12-07'
+    type: stable
+    description:
+      C: |-
+        Patch (2025-12-10 - Final): Complete quality review of all translations (ES, EN, DE, FR, PT, IT, RO, RU) ensuring 100% coverage, natural phrasing, and UI conciseness.
+      es: |-
+        Parche (2025-12-10 - Final): Completada la revisión de calidad de todas las traducciones (ES, EN, DE, FR, PT, IT, RO, RU) asegurando cobertura del 100%, fraseo natural y concisión en la interfaz.
+      fr: |-
+        Correctif (2025-12-10 - Final) : Révision complète de la qualité de toutes les traductions (ES, EN, DE, FR, PT, IT, RO, RU) assurant une couverture à 100 %, un phrasé naturel et la concision de l'interface.
+      pt: |-
+        Patch (2025-12-10 - Final): Concluída a revisão de qualidade de todas as traduções (ES, EN, DE, FR, PT, IT, RO, RU) garantindo cobertura de 100%, fraseado natural e concisão da interface.
+      de: |-
+        Patch (2025-12-10 - Final): Vollständige Qualitätsprüfung aller Übersetzungen (ES, EN, DE, FR, PT, IT, RO, RU), Sicherstellung von 100% Abdeckung, natürlicher Formulierung und UI-Prägnanz.
+      it: |-
+        Patch (2025-12-10 - Finale): Completata la revisione della qualità di tutte le traduzioni (ES, EN, DE, FR, PT, IT, RO, RU) garantendo copertura al 100%, fraseggio naturale e concisione dell'interfaccia.
+      ru: |-
+        Патч (2025-12-10 - Финал): Завершен полный аудит качества всех переводов (ES, EN, DE, FR, PT, IT, RO, RU), обеспечено 100% покрытие, естественность фраз и лаконичность интерфейса.
+      ro: |-
+        Patch (2025-12-10 - Final): Finalizată revizuirea calității tuturor traducerilor (ES, EN, DE, FR, PT, IT, RO, RU) asigurând acoperire 100%, formulare naturală și concizie a interfeței.
+  - version: 1.1.2
+    date: '2025-11-29'
+    type: stable
+    description:
+      C: Universal disk detection in CHROOT for all hardware and VM types.
+  - version: 1.1.1
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: Updated welcome tab links.
+  - version: 1.1.0
+    date: '2025-08-02'
+    type: stable
+    description:
+      C: Internationalization refactor and BTRFS fixes.
+  - version: 1.0.0
+    date: '2024-01-27'
+    type: stable
+    description:
+      C: Initial release with basic welcome interface and CHROOT functionality.
+Component: main
