@@ -1,16 +1,16 @@
 Package: soplos-release
-Version: 0.0.1
+Version: 0.1.9
 Architecture: all
 Maintainer: Sergi Perich
-Essential: yes
+Essential: no
 Replaces: base-files
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.1_all.deb
+Filename: pool/main/s/soplos-release/soplos-release_0.1.9_all.deb
 Size: 134076
-SHA256: 81a7bb8085f1074c3f76bfc2ac0b014191e73e533ef2b338c329fbbff97733e5
-SHA1: 643f5d3641a6c18282e4a857cddcfb799e2634dc
-MD5sum: 7443531955316994d86a3d0a962ce358
+SHA256: 793b61aac3f618935d4adf2c29c3820c8fa1d1e750b9b61d594acda501a4de9e
+SHA1: 2aaa280d4fb5fae0bda3b4b5c849f61d5fbf1142
+MD5sum: c0c963a987118aa1d690b49c03d7c4f4
 Description: Soplos Linux release information
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
