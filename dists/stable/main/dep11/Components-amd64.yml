@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/boro/main/media
-Time: 20251224T230707
+Time: 20251224T231408
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
