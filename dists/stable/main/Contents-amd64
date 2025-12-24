@@ -46,6 +46,14 @@ usr/share/metainfo/org.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/pixmaps/logo.png	    utils/soplos-repo-selector
 usr/share/pixmaps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/pixmaps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/plymouth/themes/soplos/001.png	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/002.png	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/003.png	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/004.png	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/005.png	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/README.md	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/soplos.plymouth	    misc/soplos-plymouth-theme
+usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
 usr/share/soplos-repo-selector/CHANGELOG.md	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/LICENSE	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/README.md	    utils/soplos-repo-selector
