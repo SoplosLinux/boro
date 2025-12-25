@@ -1,3 +1,31 @@
+Package: msi-keyboard-gui
+Version: 1.0.9
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, msi-keyboard, msi-keyboard-gui, python3-all, python3-dev, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.9_all.deb
+Size: 1103760
+SHA256: 298e30daa7e8169b458d587727376fe11c80ba94bebd4ec5ff0bbe8d6dce8f6b
+SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
+MD5sum: 2830d0681c6260c58225ee9c440dedc4
+Description: Configure MSI keyboard RGB lighting
+
+Package: soplos-grub-editor
+Version: 1.0.5
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.5_all.deb
+Size: 1094628
+SHA256: 38888e735653eaffc4d08c30d1bd97137e17f0def37dfe8b936dcc42f02756f6
+SHA1: a0f7c1f98f1c01b107fe096fe37d72d15e75d90b
+MD5sum: 68d2cfd35e932ba2994431b02cecb36e
+Description: Advanced GRUB configuration editor with complete internationalization
+
 Package: soplos-grub-theme
 Version: 0.0.1
 Architecture: all

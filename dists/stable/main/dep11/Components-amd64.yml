@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/boro/main/media
-Time: 20251225T001632
+Time: 20251225T001847
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -742,4 +742,654 @@ Releases:
     type: stable
     description:
       C: Initial release with basic welcome interface and CHROOT functionality.
+Component: main
+---
+Type: desktop-application
+ID: com.soplos.msi-keyboard.desktop
+ProjectLicense: GPL-3.0+
+Package: msi-keyboard-gui
+Name:
+  C: MSI Keyboard RGB Controller
+  es: Controlador RGB Teclado MSI
+  fr: Contrôleur RGB Clavier MSI
+  pt: Controlador RGB de Teclado MSI
+  de: MSI-Tastatur-RGB-Controller
+  it: Controller RGB Tastiera MSI
+  ru: Контроллер RGB клавиатуры MSI
+  ro: Controler RGB tastatură MSI
+Summary:
+  C: Configure MSI keyboard RGB lighting
+  es: Configurar iluminación RGB del teclado MSI
+  fr: Configurer l'éclairage RGB du clavier MSI
+  pt: Configurar a iluminação RGB do teclado MSI
+  de: MSI-Tastatur-RGB-Beleuchtung konfigurieren
+  it: Configura l'illuminazione RGB della tastiera MSI
+  ru: Настройка RGB-подсветки клавиатуры MSI
+  ro: Configurează iluminarea RGB a tastaturii MSI
+Description:
+  C: |-
+    <p>A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.</p>
+  es: |-
+    <p>Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.</p>
+  fr: |-
+    <p>Un outil graphique pour configurer l'éclairage RGB du clavier MSI avec contrôle des couleurs par zone, réglage de l'intensité et plusieurs modes d'éclairage.</p>
+  pt: |-
+    <p>Uma ferramenta gráfica para configurar a iluminação RGB do teclado MSI com controle de cores por zona, ajuste de intensidade e vários modos de iluminação.</p>
+  de: |-
+    <p>Ein grafisches Tool zur Konfiguration der RGB-Beleuchtung der MSI-Tastatur mit zonenbasierter Farbsteuerung, Intensitätsanpassung und mehreren Beleuchtungsmodi.</p>
+  it: |-
+    <p>Uno strumento grafico per configurare l'illuminazione RGB della tastiera MSI con controllo dei colori per zona, regolazione dell'intensità e molteplici modalità di illuminazione.</p>
+  ru: |-
+    <p>Графический инструмент для настройки RGB-подсветки клавиатуры MSI с управлением цветом по зонам, регулировкой интенсивности и несколькими режимами подсветки.</p>
+  ro: |-
+    <p>Un instrument grafic pentru configurarea iluminării RGB a tastaturii MSI cu control pe zone, ajustarea intensității și multiple moduri de iluminare.</p>
+Keywords:
+  C:
+    - keyboard
+    - RGB
+    - MSI
+    - lighting
+    - color
+    - backlight
+    - zones
+    - effects
+    - hardware
+    - configuration
+    - settings
+  en:
+    - keyboard
+    - RGB
+    - MSI
+    - lighting
+    - color
+    - backlight
+    - zones
+    - effects
+    - hardware
+    - configuration
+    - settings
+  es:
+    - teclado
+    - iluminación
+    - color
+    - retroiluminación
+    - zonas
+    - efectos
+    - hardware
+    - configuración
+    - ajustes
+  fr:
+    - clavier
+    - éclairage
+    - couleur
+    - rétroéclairage
+    - zones
+    - effets
+    - matériel
+    - configuration
+    - paramètres
+  pt:
+    - teclado
+    - iluminação
+    - cor
+    - retroiluminação
+    - zonas
+    - efeitos
+    - hardware
+    - configuração
+    - definições
+  de:
+    - tastatur
+    - beleuchtung
+    - farbe
+    - hintergrundbeleuchtung
+    - zonen
+    - effekte
+    - hardware
+    - konfiguration
+    - einstellungen
+  it:
+    - tastiera
+    - illuminazione
+    - colore
+    - retroilluminazione
+    - zone
+    - effetti
+    - hardware
+    - configurazione
+    - impostazioni
+  ru:
+    - клавиатура
+    - подсветка
+    - цвет
+    - зоны
+    - эффекты
+    - оборудование
+    - настройка
+    - параметры
+  ro:
+    - tastatură
+    - iluminare
+    - culoare
+    - iluminare de fundal
+    - zone
+    - efecte
+    - hardware
+    - configurare
+    - setări
+Categories:
+  - Settings
+  - HardwareSettings
+  - System
+Icon:
+  cached:
+    - name: com.soplos.msi-keyboard.png
+      width: 48
+      height: 48
+    - name: com.soplos.msi-keyboard.png
+      width: 64
+      height: 64
+    - name: com.soplos.msi-keyboard.png
+      width: 128
+      height: 128
+  remote:
+    - url: msi-keyboard-gui/icons/48x48/com.soplos.msi-keyboard.png
+      width: 48
+      height: 48
+    - url: msi-keyboard-gui/icons/64x64/com.soplos.msi-keyboard.png
+      width: 64
+      height: 64
+    - url: msi-keyboard-gui/icons/128x128/com.soplos.msi-keyboard.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: 'Main window: keyboard color selection'
+      en: 'Main window: keyboard color selection'
+      es: 'Ventana principal: selección de color del teclado'
+      fr: 'Fenêtre principale : sélection de la couleur du clavier'
+      pt: 'Janela principal: seleção de cor do teclado'
+      de: 'Hauptfenster: Tastaturfarbauswahl'
+      it: 'Finestra principale: selezione colore tastiera'
+      ru: 'Главное окно: выбор цвета клавиатуры'
+      ro: 'Fereastra principală: selecția culorii tastaturii'
+    source-image:
+      url: msi-keyboard-gui/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Advanced effects and zone configuration
+      en: Advanced effects and zone configuration
+      es: Configuración avanzada de efectos y zonas
+      fr: Configuration avancée des effets et des zones
+      pt: Configuração avançada de efeitos e zonas
+      de: Erweiterte Effekte- und Zonen-Konfiguration
+      it: Configurazione avanzata di effetti e zone
+      ru: Расширенная настройка эффектов и зон
+      ro: Configurare avansată a efectelor și zonelor
+    source-image:
+      url: msi-keyboard-gui/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - com.soplos.msi-keyboard.desktop
+Url:
+  homepage: https://soploslinux.com/tyson
+  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soploslinux.com/foros/
+Developer:
+  id: com.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soploslinux.com
+Provides:
+  - msi-keyboard-gui
+Releases:
+  - version: 1.0.9
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Program icon changed.
+      es: Cambio de icono del programa.
+      en: Program icon changed.
+      fr: Changement d'icône du programme.
+      pt: Ícone do programa alterado.
+      de: Programmsymbol geändert.
+      it: Cambiata l'icona del programma.
+      ru: Изменена иконка программы.
+      ro: S-a schimbat pictograma programului.
+  - version: 1.0.8
+    date: '2025-07-15'
+    type: stable
+    description:
+      C: |-
+        Program icons implemented in 48x48, 64x64 and 128x128 for integration and compatibility with software centers (Discover, GNOME Software, etc).
+      es: |-
+        Implementados los iconos del programa en 48x48, 64x64 y 128x128 para integración y compatibilidad con centros de software (Discover, GNOME Software, etc).
+      fr: |-
+        Icônes du programme implémentées en 48x48, 64x64 et 128x128 pour l'intégration et la compatibilité avec les centres logiciels (Discover, GNOME Software, etc).
+      pt: |-
+        Ícones do programa implementados em 48x48, 64x64 e 128x128 para integração e compatibilidade com centros de software (Discover, GNOME Software, etc).
+      de: |-
+        Programmsymbole in 48x48, 64x64 und 128x128 für die Integration und Kompatibilität mit Software-Centern (Discover, GNOME Software, etc) implementiert.
+      it: |-
+        Icone del programma implementate in 48x48, 64x64 e 128x128 per l'integrazione e la compatibilità con i centri software (Discover, GNOME Software, ecc).
+      ru: |-
+        Иконки программы реализованы в 48x48, 64x64 и 128x128 для интеграции и совместимости с центрами ПО (Discover, GNOME Software и др.).
+      ro: |-
+        Pictogramele programului implementate în 48x48, 64x64 și 128x128 pentru integrare și compatibilitate cu centrele software (Discover, GNOME Software, etc).
+  - version: 1.0.7
+    date: '2025-07-14'
+    type: stable
+    description:
+      C: Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME
+        Software).
+      es: |-
+        Correcciones finales en el metainfo para garantizar la aparición en centros de software (AppStream/Discover/GNOME Software).
+      fr: |-
+        Corrections finales du metainfo pour garantir l'apparition dans les centres logiciels (AppStream/Discover/GNOME Software).
+      pt: Correções finais no metainfo para garantir a aparição nos centros de software
+        (AppStream/Discover/GNOME Software).
+      de: Letzte Metainfo-Korrekturen, um die Anzeige in Software-Centern (AppStream/Discover/GNOME
+        Software) sicherzustellen.
+      it: Correzioni finali al metainfo per garantire la visualizzazione nei centri
+        software (AppStream/Discover/GNOME Software).
+      ru: Финальные исправления metainfo для отображения в центрах программного обеспечения
+        (AppStream/Discover/GNOME Software).
+      ro: Corecții finale la metainfo pentru a asigura apariția în centrele software
+        (AppStream/Discover/GNOME Software).
+  - version: 1.0.6
+    date: '2025-07-13'
+    type: stable
+    description:
+      C: Metainfo data corrected for proper display in AppStream/Discover.
+      en: Metainfo data corrected for proper display in AppStream/Discover.
+      es: Corregidos los datos del metainfo para que se muestren de forma correcta
+        en AppStream/Discover.
+      fr: Données metainfo corrigées pour un affichage correct dans AppStream/Discover.
+      pt: Dados do metainfo corrigidos para exibição adequada no AppStream/Discover.
+      de: Metainfo-Daten für die korrekte Anzeige in AppStream/Discover korrigiert.
+      it: Dati metainfo corretti per la corretta visualizzazione in AppStream/Discover.
+      ru: Исправлены данные metainfo для правильного отображения в AppStream/Discover.
+      ro: Datele metainfo corectate pentru afișare corectă în AppStream/Discover.
+  - version: 1.0.5
+    date: '2025-07-05'
+    type: stable
+    description:
+      C: Unified script for all systemd operations with single pkexec authentication,
+        fixing multiple password prompts.
+      en: Unified script for all systemd operations with single pkexec authentication,
+        fixing multiple password prompts.
+      es: |-
+        Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.
+      fr: |-
+        Script unifié pour toutes les opérations systemd avec une seule authentification pkexec, éliminant les multiples demandes de mot de passe.
+      pt: |-
+        Script unificado para todas as operações systemd com uma única autenticação pkexec, eliminando múltiplos pedidos de senha.
+      de: |-
+        Vereinheitlichtes Skript für alle systemd-Operationen mit einmaliger pkexec-Authentifizierung, wodurch mehrere Passwortabfragen entfallen.
+      it: |-
+        Script unificato per tutte le operazioni systemd con un'unica autenticazione pkexec, eliminando richieste multiple di password.
+      ru: Унифицированный скрипт для всех операций systemd с одной аутентификацией
+        pkexec, устраняя множественные запросы пароля.
+      ro: |-
+        Script unificat pentru toate operațiunile systemd cu o singură autentificare pkexec, eliminând solicitările multiple de parolă.
+  - version: 1.0.4
+    date: '2025-07-05'
+    type: stable
+    description:
+      C: Use pkexec for graphical authentication when creating systemd services, fixing
+        permission issues in GUI.
+      en: Use pkexec for graphical authentication when creating systemd services,
+        fixing permission issues in GUI.
+      es: Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando
+        problemas de permisos en GUI.
+      fr: |-
+        Utilisation de pkexec pour l'authentification graphique lors de la création de services systemd, résolvant les problèmes d'autorisations dans l'interface graphique.
+      pt: |-
+        Uso do pkexec para autenticação gráfica ao criar serviços systemd, corrigindo problemas de permissões na interface gráfica.
+      de: |-
+        Verwendung von pkexec für die grafische Authentifizierung beim Erstellen von systemd-Diensten, wodurch Berechtigungsprobleme in der GUI behoben werden.
+      it: |-
+        Utilizzo di pkexec per l'autenticazione grafica durante la creazione di servizi systemd, risolvendo problemi di permessi nella GUI.
+      ru: |-
+        Использование pkexec для графической аутентификации при создании сервисов systemd, устраняя проблемы с разрешениями в GUI.
+      ro: |-
+        Utilizarea pkexec pentru autentificare grafică la crearea serviciilor systemd, rezolvând problemele de permisiuni în interfața grafică.
+  - version: 1.0.3
+    date: '2025-06-26'
+    type: stable
+    description:
+      C: Automatic generation and update of systemd service when applying configuration
+        from the graphical interface.
+      en: Automatic generation and update of systemd service when applying configuration
+        from the graphical interface.
+      es: Generación y actualización automática del servicio systemd al aplicar la
+        configuración desde la interfaz gráfica.
+      fr: |-
+        Génération et mise à jour automatiques du service systemd lors de l'application de la configuration depuis l'interface graphique.
+      pt: Geração e atualização automática do serviço systemd ao aplicar a configuração
+        a partir da interface gráfica.
+      de: |-
+        Automatische Erstellung und Aktualisierung des systemd-Dienstes beim Anwenden der Konfiguration aus der grafischen Oberfläche.
+      it: |-
+        Generazione e aggiornamento automatico del servizio systemd durante l'applicazione della configurazione dall'interfaccia grafica.
+      ru: Автоматическое создание и обновление службы systemd при применении конфигурации
+        из графического интерфейса.
+      ro: Generare și actualizare automată a serviciului systemd la aplicarea configurației
+        din interfața grafică.
+  - version: 1.0.2
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: Minor improvements and metadata updates
+      en: Minor improvements and metadata updates
+      es: Mejoras menores y actualización de metadatos
+      fr: Améliorations mineures et mise à jour des métadonnées
+      pt: Pequenas melhorias e atualização de metadados
+      de: Kleinere Verbesserungen und Metadatenaktualisierungen
+      it: Miglioramenti minori e aggiornamento dei metadati
+      ru: Незначительные улучшения и обновление метаданных
+      ro: Îmbunătățiri minore și actualizare a metadatelor
+  - version: 1.0.1
+    date: '2025-06-24'
+    type: stable
+    description:
+      C: Visible in KDE Discover and other AppStream-based stores
+      en: Visible in KDE Discover and other AppStream-based stores
+      es: Ahora visible in Discover y otras tiendas AppStream
+      fr: Désormais visible dans Discover et d'autres boutiques AppStream
+      pt: Agora visível no Discover e em outras lojas AppStream
+      de: Jetzt sichtbar in Discover und anderen AppStream-Shops
+      it: Ora visibile in Discover e in altri store AppStream
+      ru: Теперь отображается в Discover и других магазинах AppStream
+      ro: Acum vizibil în Discover și în alte magazine AppStream
+  - version: 1.0.0
+    date: '2024-12-19'
+    type: stable
+    description:
+      C: 'Includes the following features:'
+      en: 'Includes the following features:'
+      es: Lanzamiento inicial
+      fr: Première version
+      pt: Lançamento inicial
+      de: Erstveröffentlichung
+      it: Rilascio iniziale
+      ru: Первый выпуск
+      ro: Lansare inițială
+Component: main
+---
+Type: desktop-application
+ID: com.soplos.grubeditor.desktop
+ProjectLicense: GPL-3.0+
+Package: soplos-grub-editor
+Name:
+  C: Soplos GRUB Editor
+  en: Soplos GRUB Editor
+  es: Editor GRUB de Soplos
+  fr: Éditeur GRUB Soplos
+  pt: Editor GRUB Soplos
+  de: Soplos GRUB Editor
+  it: Editor GRUB Soplos
+  ru: Редактор GRUB Soplos
+  ro: Editor GRUB Soplos
+Summary:
+  en: Advanced GRUB configuration editor with complete internationalization
+  C: Advanced GRUB configuration editor with complete internationalization
+  es: Editor avanzado de configuración GRUB con internacionalización completa
+  fr: Éditeur de configuration GRUB avancé avec internationalisation complète
+  pt: Editor avançado de configuração GRUB com internacionalização completa
+  de: Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung
+  it: Editor avanzato de configurazione GRUB con internazionalizzazione completa
+  ru: Расширенный редактор конфигурации GRUB с полной интернационализацией
+  ro: Editor avansat de configurare GRUB cu internaționalizare completă
+Description:
+  en: |-
+    <p>Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader.
+    With complete internationalization support for 8 languages, it provides an intuitive interface for managing
+    boot settings, themes, fonts, and custom entries.</p>
+  C: |-
+    <p>Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader.
+    With complete internationalization support for 8 languages, it provides an intuitive interface for managing
+    boot settings, themes, fonts, and custom entries.</p>
+  es: |-
+    <p>Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2.
+    Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar
+    configuraciones de arranque, temas, fuentes y entradas personalizadas.</p>
+  fr: |-
+    <p>Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2.
+    Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer
+    les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.</p>
+  pt: |-
+    <p>Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2.
+    Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar
+    configurações de inicialização, temas, fontes e entradas personalizadas.</p>
+  de: |-
+    <p>Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders.
+    Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche
+    zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.</p>
+  it: |-
+    <p>Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2.
+    Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire
+    impostazioni di avvio, temi, font ed entrate personalizzate.</p>
+  ru: |-
+    <p>Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2.
+    С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления
+    настройками загрузки, темами, шрифтами и пользовательскими записями.</p>
+  ro: |-
+    <p>Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2.
+    Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea
+    setărilor de pornire, temelor, fonturilor și intrărilor personalizate.</p>
+Keywords:
+  C:
+    - grub
+    - bootloader
+    - boot
+    - system
+    - configure
+    - settings
+    - customize
+    - theme
+    - soplos
+  en:
+    - grub
+    - bootloader
+    - boot
+    - system
+    - configure
+    - settings
+    - customize
+    - theme
+    - soplos
+  es:
+    - arranque
+    - configurar
+    - tema
+  fr:
+    - démarrage
+    - configurer
+    - thème
+  pt:
+    - inicialização
+    - configurar
+    - tema
+  de:
+    - start
+    - konfiguration
+    - thema
+  it:
+    - avvio
+    - configurare
+    - tema
+  ru:
+    - загрузка
+    - настройка
+    - тема
+  ro:
+    - pornire
+    - configurare
+    - temă
+Categories:
+  - System
+  - Settings
+  - Utility
+Icon:
+  cached:
+    - name: com.soplos.grubeditor.png
+      width: 48
+      height: 48
+    - name: com.soplos.grubeditor.png
+      width: 64
+      height: 64
+    - name: com.soplos.grubeditor.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-grub-editor/icons/48x48/com.soplos.grubeditor.png
+      width: 48
+      height: 48
+    - url: soplos-grub-editor/icons/64x64/com.soplos.grubeditor.png
+      width: 64
+      height: 64
+    - url: soplos-grub-editor/icons/128x128/com.soplos.grubeditor.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Main window with general settings
+      en: Main window with general settings
+      es: Ventana principal con configuración general
+      fr: Fenêtre principale avec paramètres généraux
+      pt: Janela principal com configurações gerais
+      de: Hauptfenster mit allgemeinen Einstellungen
+      it: Finestra principale con impostazioni generali
+      ru: Главное окно с общими настройками
+      ro: Fereastra principală cu setări generale
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Theme and appearance configuration
+      en: Theme and appearance configuration
+      es: Configuración de temas y apariencia
+      fr: Configuration des thèmes et de l'apparence
+      pt: Configuração de temas e aparência
+      de: Theme- und Erscheinungsbild-Konfiguration
+      it: Configurazione di temi e aspetto
+      ru: Настройка тем и внешнего вида
+      ro: Configurarea temelor și aspectului
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Boot entries management
+      en: Boot entries management
+      es: Gestión de entradas de arranque
+      fr: Gestion des entrées de démarrage
+      pt: Gerenciamento de entradas de inicialização
+      de: Verwaltung von Boot-Einträgen
+      it: Gestione delle voci di avvio
+      ru: Управление записями загрузки
+      ro: Gestionarea intrărilor de pornire
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Font installation and management
+      en: Font installation and management
+      es: Instalación y gestión de fuentes
+      fr: Installation et gestion des polices
+      pt: Instalação e gerenciamento de fontes
+      de: Schriftarten-Installation und -Verwaltung
+      it: Installazione e gestione dei font
+      ru: Установка и управление шрифтами
+      ro: Instalarea și gestionarea fonturilor
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - com.soplos.grubeditor.desktop
+Url:
+  homepage: https://soploslinux.com/tyson
+  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soploslinux.com/foros/
+  vcs-browser: https://github.com/SoplosLinux/tyson
+Developer:
+  id: com.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soploslinux.com
+Provides:
+  - soplos-grub-editor
+Releases:
+  - version: 1.0.5
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Cambio de icono del programa.
+  - version: 1.0.4
+    date: '2025-07-15'
+    type: stable
+    description:
+      C: Mejoras menores en estructura y etiquetas.
+  - version: 1.0.3
+    date: '2025-07-14'
+    type: stable
+    description:
+      C: Final AppStream/metainfo corrections for full visibility in software centers
+        (Plasma Discover, GNOME Software, etc).
+      en: Final AppStream/metainfo corrections for full visibility in software centers
+        (Plasma Discover, GNOME Software, etc).
+      es: |-
+        Correcciones finales de metainfo para asegurar visibilidad total en centros de software (Plasma Discover, GNOME Software, etc).
+      fr: |-
+        Corrections finales de metainfo pour garantir la visibilité totale dans les centres logiciels (Plasma Discover, GNOME Software, etc).
+      pt: |-
+        Correções finais de metainfo para garantir visibilidade total nos centros de software (Plasma Discover, GNOME Software, etc).
+      de: Letzte Metainfo-Korrekturen für vollständige Sichtbarkeit in Softwarezentren
+        (Plasma Discover, GNOME Software, etc).
+      it: |-
+        Correzioni finali al metainfo per garantire la piena visibilità nei centri software (Plasma Discover, GNOME Software, ecc).
+      ru: |-
+        Финальные исправления metainfo для полной видимости в центрах программного обеспечения (Plasma Discover, GNOME Software и др.).
+      ro: Corecții finale la metainfo pentru vizibilitate completă în centrele software
+        (Plasma Discover, GNOME Software etc).
+  - version: 1.0.2
+    date: '2025-07-01'
+    type: stable
+    description:
+      C: Metainfo updated for full compatibility with Discover/AppStream
+      es: Metainfo actualizado para compatibilidad total con Discover/AppStream
+      fr: Metainfo mis à jour pour compatibilité totale Discover/AppStream
+      pt: Metainfo atualizado para compatibilidade total com Discover/AppStream
+      de: Metainfo für vollständige Discover/AppStream-Kompatibilität aktualisiert
+      it: Metainfo aggiornato per compatibilità totale Discover/AppStream
+      ru: Metainfo обновлен для полной совместимости с Discover/AppStream
+      ro: Metainfo actualizat pentru compatibilitate completă Discover/AppStream
+  - version: 1.0.1
+    date: '2025-06-15'
+    type: stable
+    description:
+      C: Font management improvements and bug fixes
+  - version: 1.0.0
+    date: '2025-06-13'
+    type: stable
+    description:
+      C: Initial stable release
 Component: main
