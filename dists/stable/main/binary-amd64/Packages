@@ -1,3 +1,18 @@
+Package: soplos-grub-theme
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.1_all.deb
+Size: 2106064
+SHA256: 853e9cbeaec04a059db3eaf2e8c409dd6c07da5a898fbdc784c23075d610d401
+SHA1: 0e3c55b662dcf95525f83fe3416298d1c350e761
+MD5sum: e9cbb278e0ee2be5de47e3fd90dd5b30
+Description: GRUB theme package for Soplos Linux Tyson.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
+ Build date: 2025-07-27
+
 Package: soplos-plymouth-theme
 Version: 0.0.2
 Architecture: all
