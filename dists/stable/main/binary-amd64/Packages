@@ -1,3 +1,19 @@
+Package: fastfetch-soplos
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.2_all.deb
+Size: 1856
+SHA256: 5c9aad7a42b178ec0c5538d4fcb357f63c00038f3fc6e20b20e5f28c13a7cb4e
+SHA1: ac4959f7e1c8d35f9cf08a6e4009c051a5e4cb37
+MD5sum: 882dc862a0874da74eadc10a434d15e2
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
@@ -81,18 +97,18 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-24
 
 Package: soplos-release
-Version: 0.2.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Sergi Perich
 Essential: yes
 Replaces: base-files
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.2.0_all.deb
-Size: 134080
-SHA256: 3db04200230087feae6fb8e801ef65f5495cb1ef54de0c3e4a9cfc8739d62eb9
-SHA1: 456625f8119361d13064a8ef3219f0efea708af5
-MD5sum: 6fb40720d76fcf139ec25c457e99496b
+Filename: pool/main/s/soplos-release/soplos-release_0.2.1_all.deb
+Size: 135472
+SHA256: 78a5dd67d50278652482f8d7ab4c078a011e8981d0f4652712345b1a55f5612b
+SHA1: cde83345dc36a89cec49160a1742a8bb83b6cbb9
+MD5sum: 48b385127da8e2d06eecca7310fb7120
 Description: Soplos Linux release information
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.

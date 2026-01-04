@@ -13,10 +13,15 @@ etc/debian_version	    admin/soplos-release
 etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
+etc/motd	    admin/soplos-release
 etc/apt/sources.list.d/boro.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
+etc/dracut.conf.d/i18n.conf	    admin/soplos-release
+etc/dracut.conf.d/local.conf	    admin/soplos-release
+etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
+etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-grub-editor	    utils/soplos-grub-editor
