@@ -1,3 +1,19 @@
+Package: fastfetch-soplos
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.2_all.deb
+Size: 1856
+SHA256: ba039aae78849c38e2e343883787d7cfa41668099fdf3db395967a20bfd65c78
+SHA1: ff1b3e8752b1b1e57e7f3e82cc707fcb40063e4f
+MD5sum: ea051bc3c8e10dfaa35d5cfaffc1c189
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
