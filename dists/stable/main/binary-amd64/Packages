@@ -129,6 +129,20 @@ SHA1: 39b33f7941f2bf9dd6a0d63a8d3f6e9bfd02cc3d
 MD5sum: 2812ad60421cfb3824b4b151d9c6ae15
 Description: Advanced APT repository manager for Debian-based systems
 
+Package: soplos-welcome
+Version: 2.0.2
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.2_all.deb
+Size: 45549320
+SHA256: a2ce8f96dda53e595791e92e47a840288ce68498c04f53956a749aecd6e343df
+SHA1: aebce6a5e29a4a05953b3d907d51cb383b1e64c4
+MD5sum: 3f08972cbfc43da7954382ca12164ff5
+Description: The world's most advanced welcome application for Linux
+
 Package: soplos-welcome-live
 Version: 2.0.0
 Architecture: all
