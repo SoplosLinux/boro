@@ -66,6 +66,21 @@ SHA1: 423ec164742816c31da8a59c410335bf1ce2cccf
 MD5sum: 73df67609c7e6f999ba25a604c26b99a
 Description: Advanced GRUB configuration editor with complete internationalization
 
+Package: soplos-grub-theme
+Version: 0.0.4
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.4_all.deb
+Size: 2120856
+SHA256: 4c681a8067d2e36f41cf37d95eb65fead55e3b87b98411c236cfb2f52599ac12
+SHA1: 51e66f2d86dc0513dfa9e8e9d7b76873a1d13f85
+MD5sum: 600672780457ec4f21ce572237ff3749
+Description: GRUB theme package for Soplos Linux Boro.
+ This package provides the official GRUB theme and related assets for Soplos Linux Boro.
+ Build date: 2026-01-12
+
 Package: soplos-plymouth-theme
 Version: 0.0.2
 Architecture: all
