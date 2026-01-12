@@ -52,17 +52,31 @@ SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
 MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
+Package: soplos-grub-editor
+Version: 2.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.0_all.deb
+Size: 1197384
+SHA256: a3fb0de6d0c9c76c2bb89e37a0fd3787edb58ede60e2f98ea212663576d914a5
+SHA1: 68576f0ad276a866eaf6d39668bfae5946c9a386
+MD5sum: 5d62cc8759cbc5474fd8fa9dd9ff5413
+Description: Advanced GRUB configuration editor with complete internationalization
+
 Package: soplos-grub-theme
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.2_all.deb
-Size: 2150280
-SHA256: 80e5c4e9ebed6236f8af5b52ccd5cb8f31d6bb0466644969a4847f636f242542
-SHA1: 4b5e22b071c794009d2cc0ea92883d0fafc1361b
-MD5sum: 11a450f69cf9f4d787f82755f6bfc72b
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.3_all.deb
+Size: 2119068
+SHA256: 0022028527a517c811f7268a98cc1c6504cbcaee7fa17d76936e769fbc93f9e4
+SHA1: 44aadde974a829c09955a164f73c013458c51686
+MD5sum: 66115ea7926a25b29f683d9f3988bd08
 Description: GRUB theme package for Soplos Linux Boro.
  This package provides the official GRUB theme and related assets for Soplos Linux Boro.
  Build date: 2026-01-12
