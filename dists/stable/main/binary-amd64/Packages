@@ -66,21 +66,6 @@ SHA1: a0f7c1f98f1c01b107fe096fe37d72d15e75d90b
 MD5sum: 68d2cfd35e932ba2994431b02cecb36e
 Description: Advanced GRUB configuration editor with complete internationalization
 
-Package: soplos-grub-theme
-Version: 0.0.1
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Priority: optional
-Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.1_all.deb
-Size: 2106064
-SHA256: 853e9cbeaec04a059db3eaf2e8c409dd6c07da5a898fbdc784c23075d610d401
-SHA1: 0e3c55b662dcf95525f83fe3416298d1c350e761
-MD5sum: e9cbb278e0ee2be5de47e3fd90dd5b30
-Description: GRUB theme package for Soplos Linux Tyson.
- This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
- Build date: 2025-07-27
-
 Package: soplos-plymouth-theme
 Version: 0.0.2
 Architecture: all
@@ -97,18 +82,19 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-24
 
 Package: soplos-release
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Sergi Perich
 Essential: yes
 Replaces: base-files
+Depends: soplos-grub-theme
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.2.1_all.deb
-Size: 135472
-SHA256: 78a5dd67d50278652482f8d7ab4c078a011e8981d0f4652712345b1a55f5612b
-SHA1: cde83345dc36a89cec49160a1742a8bb83b6cbb9
-MD5sum: 48b385127da8e2d06eecca7310fb7120
+Filename: pool/main/s/soplos-release/soplos-release_0.2.2_all.deb
+Size: 135484
+SHA256: eafd6dcf33f38b02d17b53e47fdc7f1ede7c9c52f708ee04916b8c7669a8c1e8
+SHA1: ae78f9f35b52af41c85c2ea9a03cd80740bec1ae
+MD5sum: 4b6214210048617e05bd392dc33a823b
 Description: Soplos Linux release information
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
