@@ -81,16 +81,16 @@ MD5sum: 605a0777eb956af66ccb17cf943c8d7b
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme
-Version: 0.0.5
+Version: 0.0.6
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.5_all.deb
-Size: 2120996
-SHA256: 3e23d1587ac1de9bdbbb1dda0f218ef96f274ddbb76129cf1c5aa16cc199a2ea
-SHA1: 57afe2bb3cf73f66d921202ea81f53bcd4b3a9cd
-MD5sum: 609c1d7e0ff83868f85cbe7fe52acd8e
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.6_all.deb
+Size: 2121372
+SHA256: 3ea2c0f51d391c6e6e2b043a5e5bd0a7ae99ab776af2569252bc1a0f4a06ce99
+SHA1: 274f072446a9061e98e05463a017b8a596cd77ca
+MD5sum: cefefc9ad1fba451a2122608ac5dce5b
 Description: GRUB theme package for Soplos Linux Boro.
  This package provides the official GRUB theme and related assets for Soplos Linux Boro.
  Build date: 2026-03-07
