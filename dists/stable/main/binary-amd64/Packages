@@ -31,17 +31,19 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-3
+Version: 0.0.1-4
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh-soplos, ghostty-tip, python3-nautilus
+Conflicts: fish-soplos
+Replaces: fish-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-3_all.deb
-Size: 2284
-SHA256: b1180e3265b87de62ffbdc4a8b93b5f63c31215b45a2dceddeec1cf881fc2978
-SHA1: a5ee31e9a93017d67cbc645483d4b6e1c78db43b
-MD5sum: 97aef275b8877819684d8bea28adb2a1
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-4_all.deb
+Size: 2332
+SHA256: e14a46223c18abb694e5b429cd3869d7555b2e58744a2e760550f1a9459f32b2
+SHA1: 7a429bf8b3c95e3d3586df7f738262cc5898a6d3
+MD5sum: e9546c5a07eafa5c548f6b28c70261e6
 Description: Ghostty terminal configuration for SopLOS Boro
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with GNOME via the Nautilus extension, and adds the
@@ -292,17 +294,17 @@ Description: ZRAM swap configuration for SopLOS
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
 
 Package: zsh-soplos
-Version: 0.0.1-1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions, zsh-theme-powerlevel9k
 Priority: optional
 Section: utils
-Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-1_all.deb
-Size: 1772
-SHA256: 53a94648348638bb1ca5806d381503b60121c67f4937b0643c640261c6930714
-SHA1: f571c0ae041c63298f2285e4d5b2fd5fa6b1e214
-MD5sum: 5ed149b59b6d2255fb379599935c37b1
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-2_all.deb
+Size: 1760
+SHA256: 1a9fe0a9cad9e471d2d21fd4c74544413303fd14cd8558a3d1c4c3a9649ad0c8
+SHA1: dad85c46cf6060920a5612cc9f40603d2de2ab31
+MD5sum: 58578013a49625a8939fb5c660e3338f
 Description: Zsh shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Zsh shell,
  applied to both new and existing users. Sets Zsh as the default shell.
