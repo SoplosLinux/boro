@@ -277,6 +277,23 @@ SHA1: ecd613c05dac819a8c424fcbcbdcfdf27f4aeaa0
 MD5sum: 662bfd104cc7f8ac62be2e5e3d5ce11e
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 
+Package: tablet-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: iio-sensor-proxy
+Priority: optional
+Section: utils
+Filename: pool/main/t/tablet-soplos/tablet-soplos_0.0.1_all.deb
+Size: 1160
+SHA256: a1841ce707213f1aa57afb2ca579c566f2706c66cfbd175fef53da0fc239b048
+SHA1: 6c7fe359d13d91d97e8c1f11f586defbcb83941b
+MD5sum: 295866e5a8305b27467e6348353a583d
+Description: Tablet and hybrid device support for Soplos Linux Boro
+ This package provides support for hybrid and tablet devices on Soplos Linux
+ Boro. Enables screen rotation via accelerometer and activates the GNOME
+ built-in on-screen keyboard.
+
 Package: zram-soplos
 Version: 0.0.1-2
 Architecture: all
