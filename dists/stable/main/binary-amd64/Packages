@@ -144,6 +144,20 @@ SHA1: 9b900b9c561b49aba586453bf80bfbdbac99b340
 MD5sum: 48275f611ed17dd4bb982711ace79ee6
 Description: Advanced graphical kernel manager for Soplos Linux
 
+Package: soplos-layout-switcher
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, gnome-shell-extension-prefs, python3, python3-click, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-layout-switcher/soplos-layout-switcher_1.0.0_all.deb
+Size: 878860
+SHA256: 10f7a31701b2d176eafe52ccbe865e59f29be609a3987204bad6fff38bbee067
+SHA1: 53f08e39c927e012301befa752e07b843e0a7759
+MD5sum: ea093e66904cbd1b4c1a4f37b18ef024
+Description: Switch between predefined GNOME Shell layouts on Soplos Linux
+
 Package: soplos-plymouth-manager
 Version: 2.0.0-8
 Architecture: all

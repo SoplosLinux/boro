@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.layoutswitcher.desktop</id>
+  <pkgname>soplos-layout-switcher</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>org.soploslinux</project_group>
+
+  <name>Soplos Layout Switcher</name>
+  <name xml:lang="en">Soplos Layout Switcher</name>
+  <name xml:lang="es">Soplos Layout Switcher</name>
+  <name xml:lang="fr">Soplos Layout Switcher</name>
+  <name xml:lang="pt">Soplos Layout Switcher</name>
+  <name xml:lang="de">Soplos Layout Switcher</name>
+  <name xml:lang="it">Soplos Layout Switcher</name>
+  <name xml:lang="ru">Soplos Layout Switcher</name>
+  <name xml:lang="ro">Soplos Layout Switcher</name>
+
+  <summary>Switch between predefined GNOME Shell layouts on Soplos Linux</summary>
+  <summary xml:lang="en">Switch between predefined GNOME Shell layouts on Soplos Linux</summary>
+  <summary xml:lang="es">Cambia entre diseños predefinidos de GNOME Shell en Soplos Linux</summary>
+  <summary xml:lang="fr">Basculez entre des dispositions GNOME Shell prédéfinies sur Soplos Linux</summary>
+  <summary xml:lang="pt">Alterne entre layouts predefinidos do GNOME Shell no Soplos Linux</summary>
+  <summary xml:lang="de">Wechseln Sie zwischen vordefinierten GNOME-Shell-Layouts auf Soplos Linux</summary>
+  <summary xml:lang="it">Passa tra layout predefiniti di GNOME Shell su Soplos Linux</summary>
+  <summary xml:lang="ru">Переключение между предустановленными макетами GNOME Shell в Soplos Linux</summary>
+  <summary xml:lang="ro">Comută între aspecte predefinite ale GNOME Shell pe Soplos Linux</summary>
+
+  <description>
+    <p>Soplos Layout Switcher lets you switch the GNOME Shell desktop between predefined layouts (Soplos, Dock, Tiling, GNOME) by enabling and disabling the required shell extensions and applying the matching settings.</p>
+    <p xml:lang="en">Soplos Layout Switcher lets you switch the GNOME Shell desktop between predefined layouts (Soplos, Dock, Tiling, GNOME) by enabling and disabling the required shell extensions and applying the matching settings.</p>
+    <p xml:lang="es">Soplos Layout Switcher permite cambiar el escritorio de GNOME Shell entre diseños predefinidos (Soplos, Dock, Mosaico, GNOME), activando y desactivando las extensiones necesarias y aplicando los ajustes correspondientes.</p>
+    <p xml:lang="fr">Soplos Layout Switcher permet de basculer le bureau GNOME Shell entre des dispositions prédéfinies (Soplos, Dock, Mosaïque, GNOME), en activant et désactivant les extensions nécessaires et en appliquant les paramètres correspondants.</p>
+    <p xml:lang="pt">O Soplos Layout Switcher permite alternar a área de trabalho do GNOME Shell entre layouts predefinidos (Soplos, Dock, Mosaico, GNOME), ativando e desativando as extensões necessárias e aplicando as configurações correspondentes.</p>
+    <p xml:lang="de">Mit Soplos Layout Switcher können Sie den GNOME-Shell-Desktop zwischen vordefinierten Layouts (Soplos, Dock, Kachelung, GNOME) wechseln, indem die erforderlichen Shell-Erweiterungen aktiviert/deaktiviert und die passenden Einstellungen angewendet werden.</p>
+    <p xml:lang="it">Soplos Layout Switcher consente di cambiare il desktop di GNOME Shell tra layout predefiniti (Soplos, Dock, Mosaico, GNOME), abilitando e disabilitando le estensioni necessarie e applicando le impostazioni corrispondenti.</p>
+    <p xml:lang="ru">Soplos Layout Switcher позволяет переключать рабочий стол GNOME Shell между предустановленными макетами (Soplos, Dock, Плитка, GNOME), включая и отключая необходимые расширения оболочки и применяя соответствующие настройки.</p>
+    <p xml:lang="ro">Soplos Layout Switcher vă permite să comutați desktopul GNOME Shell între aspecte predefinite (Soplos, Dock, Mozaic, GNOME), activând și dezactivând extensiile necesare și aplicând setările corespunzătoare.</p>
+    <ul>
+      <li>Four layout presets: Soplos, Dock, Tiling and GNOME</li>
+      <li xml:lang="es">Cuatro diseños predefinidos: Soplos, Dock, Mosaico y GNOME</li>
+      <li xml:lang="fr">Quatre dispositions prédéfinies : Soplos, Dock, Mosaïque et GNOME</li>
+      <li xml:lang="pt">Quatro layouts predefinidos: Soplos, Dock, Mosaico e GNOME</li>
+      <li xml:lang="de">Vier vordefinierte Layouts: Soplos, Dock, Kachelung und GNOME</li>
+      <li xml:lang="it">Quattro layout predefiniti: Soplos, Dock, Mosaico e GNOME</li>
+      <li xml:lang="ru">Четыре предустановленных макета: Soplos, Dock, Плитка и GNOME</li>
+      <li xml:lang="ro">Patru aspecte predefinite: Soplos, Dock, Mozaic și GNOME</li>
+      <li>Quick access to GNOME Tweaks, GNOME Extensions, GDM Settings and Firefox theming</li>
+      <li xml:lang="es">Acceso rápido a GNOME Tweaks, GNOME Extensions, ajustes de GDM y tema de Firefox</li>
+      <li xml:lang="fr">Accès rapide à GNOME Tweaks, GNOME Extensions, paramètres GDM et thème Firefox</li>
+      <li xml:lang="pt">Acesso rápido ao GNOME Tweaks, GNOME Extensions, configurações do GDM e tema do Firefox</li>
+      <li xml:lang="de">Schnellzugriff auf GNOME Tweaks, GNOME-Erweiterungen, GDM-Einstellungen und Firefox-Thema</li>
+      <li xml:lang="it">Accesso rapido a GNOME Tweaks, GNOME Extensions, impostazioni GDM e tema di Firefox</li>
+      <li xml:lang="ru">Быстрый доступ к GNOME Tweaks, GNOME Extensions, настройкам GDM и теме Firefox</li>
+      <li xml:lang="ro">Acces rapid la GNOME Tweaks, GNOME Extensions, setări GDM și temă Firefox</li>
+      <li>Multi-language support (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="es">Soporte multiidioma (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="fr">Support multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="pt">Suporte multilíngue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="de">Mehrsprachige Unterstützung (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="it">Supporto multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="ru">Многоязычная поддержка (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="ro">Suport multilingv (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+    </ul>
+  </description>
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>gnome</keyword>
+    <keyword>layout</keyword>
+    <keyword>shell</keyword>
+    <keyword>extensions</keyword>
+    <keyword>soplos</keyword>
+    <keyword>dock</keyword>
+    <keyword>panel</keyword>
+    <keyword xml:lang="es">diseño</keyword>
+    <keyword xml:lang="es">extensiones</keyword>
+    <keyword xml:lang="es">escritorio</keyword>
+  </keywords>
+
+  <translation type="gettext">soplos-layout-switcher</translation>
+
+  <launchable type="desktop-id">org.soplos.layoutswitcher.desktop</launchable>
+
+  <icon type="stock">org.soplos.layoutswitcher</icon>
+  <icon type="remote" width="128" height="128">
+    <url>https://raw.githubusercontent.com/SoplosLinux/boro/main/media/soplos-layout-switcher/icons/org.soplos.layoutswitcher.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Soplos Layout Switcher</caption>
+      <caption xml:lang="es">Soplos Layout Switcher</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-layout-switcher/main/assets/screenshots/screenshot1.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-layout-switcher/issues</url>
+  <url type="donation">https://paypal.me/soploslinux</url>
+  <url type="contact">https://soplos.org/wiki/contact/</url>
+
+  <developer id="org.soploslinux">
+    <name>Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-layout-switcher</binary>
+    <binary>soplos-layout-switcher-cli</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2026-07-19">
+      <description>
+        <p xml:lang="en">Initial Soplos port of Manjaro's gnome-layout-switcher, adapted to the standard Soplos application skeleton with header bar, footer, About dialog and 8-language support.</p>
+        <p xml:lang="es">Port inicial a Soplos de gnome-layout-switcher (Manjaro), adaptado al esqueleto estándar de aplicación Soplos con barra de cabecera, pie de página, diálogo Acerca de y soporte para 8 idiomas.</p>
+        <p xml:lang="fr">Premier portage vers Soplos de gnome-layout-switcher (Manjaro), adapté au squelette d'application Soplos standard avec barre d'en-tête, pied de page, boîte de dialogue À propos et support de 8 langues.</p>
+        <p xml:lang="pt">Port inicial para Soplos do gnome-layout-switcher (Manjaro), adaptado ao esqueleto padrão de aplicativo Soplos com barra de cabeçalho, rodapé, diálogo Sobre e suporte a 8 idiomas.</p>
+        <p xml:lang="de">Erster Soplos-Port von Manjaros gnome-layout-switcher, angepasst an das Standard-Soplos-Anwendungsgerüst mit Kopfzeile, Fußzeile, Über-Dialog und Unterstützung für 8 Sprachen.</p>
+        <p xml:lang="it">Prima porting su Soplos di gnome-layout-switcher (Manjaro), adattato allo scheletro standard delle applicazioni Soplos con barra dell'intestazione, piè di pagina, finestra Info e supporto per 8 lingue.</p>
+        <p xml:lang="ru">Первоначальный порт Soplos gnome-layout-switcher (Manjaro), адаптированный к стандартному каркасу приложений Soplos с панелью заголовка, нижним колонтитулом, диалогом «О программе» и поддержкой 8 языков.</p>
+        <p xml:lang="ro">Portare inițială pe Soplos a gnome-layout-switcher (Manjaro), adaptată la scheletul standard al aplicațiilor Soplos cu bară de titlu, subsol, dialog Despre și suport pentru 8 limbi.</p>
+        <p xml:lang="en">All four layout presets rebuilt against a verified real Soplos Boro setup instead of inherited Manjaro assumptions. Forge and Open Bar (Tiling preset) now ship bundled with the app, since neither has a Debian package nor a compatible build on extensions.gnome.org yet. Fixed several real bugs: a package-check that always reported "installed" due to a shell redirection incompatible with dash, a wrong desktop-icons extension uuid, locale-dependent toggle detection in Settings, gsettings failing on user-local extension schemas, and extensions from a previous layout staying enabled after switching.</p>
+        <p xml:lang="es">Los cuatro presets de diseño reconstruidos contra una configuración real y verificada de Soplos Boro, en vez de suposiciones heredadas de Manjaro. Forge y Open Bar (preset Mosaico) ahora se incluyen empaquetados con la aplicación, ya que ninguno tiene paquete Debian ni una compilación compatible en extensions.gnome.org todavía. Corregidos varios errores reales: una comprobación de paquetes que siempre indicaba "instalado" por una redirección de shell incompatible con dash, un uuid incorrecto de la extensión de iconos de escritorio, detección de interruptores en Ajustes dependiente del idioma, fallos de gsettings con esquemas de extensiones locales de usuario, y extensiones de un layout anterior que se quedaban activas al cambiar.</p>
+        <p xml:lang="fr">Les quatre préréglages de disposition reconstruits à partir d'une configuration Soplos Boro réelle et vérifiée, au lieu de suppositions héritées de Manjaro. Forge et Open Bar (préréglage Mosaïque) sont désormais fournis avec l'application, car aucun des deux n'a de paquet Debian ni de version compatible sur extensions.gnome.org pour l'instant. Plusieurs bugs réels corrigés : une vérification de paquet qui indiquait toujours "installé" à cause d'une redirection shell incompatible avec dash, un uuid incorrect pour l'extension d'icônes de bureau, une détection des interrupteurs dépendante de la langue, des échecs de gsettings sur les schémas d'extensions locales, et des extensions d'une disposition précédente restant actives après un changement.</p>
+        <p xml:lang="pt">Os quatro predefinições de layout reconstruídas com base numa configuração real e verificada do Soplos Boro, em vez de suposições herdadas do Manjaro. Forge e Open Bar (predefinição Mosaico) agora vêm empacotados com a aplicação, já que nenhum tem pacote Debian nem uma compilação compatível no extensions.gnome.org ainda. Corrigidos vários erros reais: uma verificação de pacotes que sempre indicava "instalado" devido a uma redireção de shell incompatível com dash, um uuid errado da extensão de ícones da área de trabalho, deteção de interruptores nas Definições dependente do idioma, falhas do gsettings em esquemas de extensões locais do utilizador, e extensões de um layout anterior que continuavam ativas após a mudança.</p>
+        <p xml:lang="de">Alle vier Layout-Voreinstellungen wurden anhand einer verifizierten echten Soplos-Boro-Einrichtung neu aufgebaut, statt geerbter Manjaro-Annahmen. Forge und Open Bar (Kachelung-Voreinstellung) werden nun mit der App gebündelt, da keines der beiden ein Debian-Paket noch einen kompatiblen Build auf extensions.gnome.org hat. Mehrere echte Fehler behoben: eine Paketprüfung, die aufgrund einer mit dash inkompatiblen Shell-Umleitung immer "installiert" meldete, eine falsche Desktop-Icons-Erweiterungs-UUID, sprachabhängige Schaltererkennung in den Einstellungen, gsettings-Fehler bei lokal installierten Erweiterungsschemas und Erweiterungen eines vorherigen Layouts, die nach dem Wechsel aktiviert blieben.</p>
+        <p xml:lang="it">Tutti e quattro i preset di layout ricostruiti su una configurazione Soplos Boro reale e verificata, invece di ipotesi ereditate da Manjaro. Forge e Open Bar (preset Mosaico) ora vengono forniti in bundle con l'app, poiché nessuno dei due ha un pacchetto Debian né una build compatibile su extensions.gnome.org. Corretti diversi bug reali: un controllo dei pacchetti che segnalava sempre "installato" a causa di un reindirizzamento shell incompatibile con dash, un uuid errato dell'estensione delle icone del desktop, rilevamento degli interruttori nelle Impostazioni dipendente dalla lingua, errori di gsettings sugli schemi delle estensioni locali, ed estensioni di un layout precedente che restavano attive dopo il cambio.</p>
+        <p xml:lang="ru">Все четыре предустановки макета переработаны на основе реальной проверенной настройки Soplos Boro, а не унаследованных предположений Manjaro. Forge и Open Bar (макет Плитка) теперь поставляются вместе с приложением, так как ни один из них не имеет пакета Debian или совместимой сборки на extensions.gnome.org. Исправлено несколько реальных ошибок: проверка пакетов, всегда сообщавшая "установлено" из-за перенаправления shell, несовместимого с dash, неверный uuid расширения значков рабочего стола, зависящее от языка определение переключателей в настройках, сбои gsettings на локальных схемах расширений и расширения предыдущего макета, остававшиеся включёнными после переключения.</p>
+        <p xml:lang="ro">Toate cele patru presetări de aspect reconstruite pe baza unei configurații Soplos Boro reale și verificate, în loc de presupuneri moștenite de la Manjaro. Forge și Open Bar (presetarea Mozaic) sunt acum incluse împreună cu aplicația, deoarece niciuna nu are pachet Debian sau o versiune compatibilă pe extensions.gnome.org încă. Corectate mai multe erori reale: o verificare a pachetelor care raporta mereu "instalat" din cauza unei redirecționări shell incompatibile cu dash, un uuid greșit al extensiei de pictograme desktop, detectarea comutatoarelor din Setări dependentă de limbă, eșecuri gsettings pe schemele extensiilor locale, și extensii dintr-un aspect anterior care rămâneau active după schimbare.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+  </content_rating>
+
+</component>
