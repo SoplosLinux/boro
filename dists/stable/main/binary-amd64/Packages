@@ -31,7 +31,7 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-4
+Version: 0.0.1-5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh-soplos, ghostty-tip, python3-nautilus
@@ -39,11 +39,11 @@ Conflicts: fish-soplos
 Replaces: fish-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-4_all.deb
-Size: 2332
-SHA256: e14a46223c18abb694e5b429cd3869d7555b2e58744a2e760550f1a9459f32b2
-SHA1: 7a429bf8b3c95e3d3586df7f738262cc5898a6d3
-MD5sum: e9546c5a07eafa5c548f6b28c70261e6
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-5_all.deb
+Size: 2336
+SHA256: 12ea391a847e8463f862cf972faa16092c95cf3f8579bfc498c9ed83dddab73b
+SHA1: 2f2fbc3c5510ace6327c129150490185b6b69501
+MD5sum: 597162a055c7a516e01a10c741be0bac
 Description: Ghostty terminal configuration for SopLOS Boro
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with GNOME via the Nautilus extension, and adds the
