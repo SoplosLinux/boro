@@ -41,6 +41,8 @@ etc/skel/.config/fish/conf.d/soplos_theme.fish	    utils/fish-soplos
 etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
 etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
+opt/Telegram/Telegram	    net/telegram-desktop
+opt/Telegram/Updater	    net/telegram-desktop
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
@@ -56,6 +58,7 @@ usr/bin/soplos-system-service	    utils/soplos-system-service
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/bin/telegram-desktop	    net/telegram-desktop
 usr/lib/os-release	    admin/soplos-release
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
@@ -74,6 +77,7 @@ usr/share/applications/org.soplos.webappmanager.desktop	    utils/soplos-webapp-
 usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
+usr/share/applications/telegram-desktop.desktop	    net/telegram-desktop
 usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
