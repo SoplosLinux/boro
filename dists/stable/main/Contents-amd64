@@ -10889,6 +10889,7 @@ usr/share/icons/kora-soplos-dark/apps/scalable/sonata.svg	    x11/kora-soplos-ic
 usr/share/icons/kora-soplos-dark/apps/scalable/sonic-pi.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/sonic-visualiser.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/sonobus.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/apps/scalable/soplos-launcher.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/sound-juicer.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/sound-recorder.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/soundcloud.svg	    x11/kora-soplos-icons
@@ -14892,6 +14893,7 @@ usr/share/icons/kora-soplos-dark/panel/16/connect_established.svg	    x11/kora-s
 usr/share/icons/kora-soplos-dark/panel/16/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/16/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/16/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/panel/16/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/16/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/16/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/16/copy-paused.svg	    x11/kora-soplos-icons
@@ -18134,6 +18136,7 @@ usr/share/icons/kora-soplos-dark/panel/22/connect_established.svg	    x11/kora-s
 usr/share/icons/kora-soplos-dark/panel/22/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/22/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/22/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/panel/22/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/22/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/22/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/22/copy-paused.svg	    x11/kora-soplos-icons
@@ -21376,6 +21379,7 @@ usr/share/icons/kora-soplos-dark/panel/24/connect_established.svg	    x11/kora-s
 usr/share/icons/kora-soplos-dark/panel/24/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/24/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/24/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/panel/24/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/24/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/24/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/panel/24/copy-paused.svg	    x11/kora-soplos-icons
@@ -34410,6 +34414,7 @@ usr/share/icons/kora-soplos-light/apps/scalable/sonata.svg	    x11/kora-soplos-i
 usr/share/icons/kora-soplos-light/apps/scalable/sonic-pi.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/sonic-visualiser.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/sonobus.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/apps/scalable/soplos-launcher.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/sound-juicer.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/sound-recorder.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/soundcloud.svg	    x11/kora-soplos-icons
@@ -38413,6 +38418,7 @@ usr/share/icons/kora-soplos-light/panel/16/connect_established.svg	    x11/kora-
 usr/share/icons/kora-soplos-light/panel/16/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/16/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/16/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/panel/16/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/16/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/16/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/16/copy-paused.svg	    x11/kora-soplos-icons
@@ -41655,6 +41661,7 @@ usr/share/icons/kora-soplos-light/panel/22/connect_established.svg	    x11/kora-
 usr/share/icons/kora-soplos-light/panel/22/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/22/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/22/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/panel/22/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/22/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/22/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/22/copy-paused.svg	    x11/kora-soplos-icons
@@ -44897,6 +44904,7 @@ usr/share/icons/kora-soplos-light/panel/24/connect_established.svg	    x11/kora-
 usr/share/icons/kora-soplos-light/panel/24/connect_no.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/24/connection-secure-symbolic.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/24/content-loading-symbolic.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/panel/24/control-centre.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/24/copy-error.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/24/copy-insync.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/panel/24/copy-paused.svg	    x11/kora-soplos-icons
