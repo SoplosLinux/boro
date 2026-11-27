@@ -1,3 +1,17 @@
+Package: branding-soplos
+Version: 0.0.4
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.4_all.deb
+Size: 8234276
+SHA256: 61aa5d84a4d2839cc0894e7f2c9fe57b6edb6eda7e1b99d0a5d5290bacab78e9
+SHA1: 7932e23d55cd36934c3189ad1db4814bd73a5672
+MD5sum: 02dff4f1e793e7958f0c01ae58791f11
+Description: Branding package for Soplos Linux Boro.
+ This package provides the official branding (logos, themes, etc.) for Soplos Linux Boro.
+
 Package: btrfs-os-prober
 Version: 1.0.0-1
 Architecture: all
@@ -662,6 +676,20 @@ Description: VMware kernel modules builder for Soplos Linux
  .
  Also configures VMware module autoloading at boot and enables the
  vmware.service systemd unit.
+
+Package: soplos-wallpapers2027
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers2027/soplos-wallpapers2027_1.0.0_all.deb
+Size: 24704528
+SHA256: 67b2c3c2c8a28adc1ce13626d905eef40feb9620ff7bff364d164e33897ed733
+SHA1: ed9e867a19265b52a8bb1f2373798d9376c622b2
+MD5sum: ea90c6ce5f1213613a636db9003d8ee0
+Description: Soplos Linux 2027 wallpapers
+ Extra pack of ten wallpapers in 3840x2160 for Soplos Linux Boro.
 
 Package: soplos-webapp-manager
 Version: 3.0.0
