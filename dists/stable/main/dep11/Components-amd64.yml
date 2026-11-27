@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/boro/main/media"
-Time: 20261127T123301
+Time: 20261127T123511
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
